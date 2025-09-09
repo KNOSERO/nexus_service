@@ -1,12 +1,21 @@
 version: "3.9"
 
 services:
-  hello:
-    container_name: hello-world
-    image: hello-world
-
+  nexus:
+    image: sonatype/nexus3:latest
+    container_name: nexus
+    ports:
+      - "8081:8081"
+      - "5000:5000"
+    volumes:
+      - /mnt/core_data/docker/nexus:/opt/sonatype/sonatype-work
+    environment:
+      - TZ=Europe/Warsaw
+    restart: always
+    networks:
+      - nexus
 
 networks:
-  hello:
-    name: hello
+  nexus:
+    name: nexus
     driver: bridge
