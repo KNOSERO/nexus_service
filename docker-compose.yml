@@ -18,4 +18,5 @@ services:
 networks:
   nexus:
     name: nexus
+    external: true
     driver: bridge
