@@ -3,7 +3,7 @@ Nexus Repository an artifact management system for hosting, storing, and distrib
 
 [![Build Status](https://jenkins.ravcube.com/buildStatus/icon?job=PR%20Public/PR%20Nexus%20Service&style=plastic)](https://jenkins.ravcube.com/job/PR%20Public/job/PR%20Nexus%20Service/lastBuild/pipeline-overview/)
 [![License](https://img.shields.io/github/license/KNOSERO/nexus_service?style=plastic)](LICENSE)
-[![Docker](https://img.shields.io/badge/Docker-Image-blue?logo=docker&style=plastic)](https://hub.docker.com/_/hello-world)
+[![Docker](https://img.shields.io/badge/Docker-Image-blue?logo=docker&style=plastic)](https://hub.docker.com/r/sonatype/nexus3)
 
 -----
 
